@@ -47,7 +47,24 @@ I get the following error: Parse error: syntax error, unexpected variable "$text
  Random characters: del c:\*.* " 
  */
 echo "\"It is Markku's car.\"<br>" ;
-echo "Random characters: del c: \\*.* \"";
+echo "Random characters: del c: \\*.* \"<br>";
 
+# OPERATORS
+
+# 1. Write a script to add up the numbers: 298, 234, 46. Use echo statement to output your answer.
+$num1=298;
+$num2=234;
+$num3=46;
+echo" .($num1+$num2+$num3) . <br>";
+
+# 2. Use variables to calculate the following : (87 + 44)+(200 * 15) / 10
+
+$num4=87;
+$num5=44;
+$num6=200;
+$num7=15;
+$num8=10;
+
+echo" ($num4+$num5)+($num6*$num7)/$num8 ";
 
 ?>
