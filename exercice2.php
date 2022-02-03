@@ -1,5 +1,6 @@
 
 <?php
+# SRINGS
 # 1. Write PhP script with two string variables. Assign any text to these variables. Join them together. Print the length of the string.(Hint: string function) 
 
 $text1="I like";
@@ -45,6 +46,8 @@ I get the following error: Parse error: syntax error, unexpected variable "$text
  " It is Markku's car."
  Random characters: del c:\*.* " 
  */
-echo " \ "It is Markku's car.\"" <br>;
-echo"Random characters: del c: \\*.*";
+echo "\"It is Markku's car.\"<br>" ;
+echo "Random characters: del c: \\*.*";
+
+
 ?>
