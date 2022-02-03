@@ -25,4 +25,10 @@ echo "<br>";
 I get the following error message: Parse error: syntax error, unexpected identifier "programming" in /var/www/html/exs/mona_achaaoud_web/exercice2.php on line 21
 */
 
+# 4. Delete the dollar sign from the variable name. Run your code. What error did you get? Write the error message?
+text1="I like";
+text2="programming";
+echo strlen ($text1 . " " . $text2);
+echo "<br>";
+
 ?>
