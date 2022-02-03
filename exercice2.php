@@ -65,6 +65,6 @@ $num6=200;
 $num7=15;
 $num8=10;
 
-echo" ($num4+$num5)+($num6*$num7)/$num8 ";
+echo ($num4+$num5)+($num6*$num7)/$num8 ;
 
 ?>
