@@ -33,9 +33,18 @@ echo "<br>";
 I get the following error: Parse error: syntax error, unexpected token "=" in /var/www/html/exs/mona_achaaoud_web/exercice2.php on line 29
 */
 
-#5. Put the dollar sign back and remove one of the semicolon from the code. Run your code again. What error did you get this time?
+/* 5. Put the dollar sign back and remove one of the semicolon from the code. Run your code again. What error did you get this time?
 $text1="I like"
 $text2="programming";
 echo strlen ($text1 . " " . $text2);
 echo "<br>";
+I get the following error: Parse error: syntax error, unexpected variable "$text2" in /var/www/html/exs/mona_achaaoud_web/exercice2.php on line 38
+*/
+
+/* 6. Write a PHP script to get the following display 
+ " It is Markku's car."
+ Random characters: del c:\*.* " 
+ */
+echo " \ "It is Markku's car.\"" <br>;
+echo"Random characters: del c: \\*.*";
 ?>
