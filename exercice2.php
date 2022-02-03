@@ -5,6 +5,7 @@
 $text1="I like";
 $text2="programming";
 echo strlen ($text1 . " " . $text2);
+echo "<br>";
 
 # 2. In your above code, Change the double quotes to single quotes.Then run the script again. Did it have any effect?
 
