@@ -55,7 +55,7 @@ echo "Random characters: del c: \\*.* \"<br>";
 $num1=298;
 $num2=234;
 $num3=46;
-echo" .($num1+$num2+$num3) . <br>";
+echo" The output is ".($num1+$num2+$num3) . "<br>";
 
 # 2. Use variables to calculate the following : (87 + 44)+(200 * 15) / 10
 
