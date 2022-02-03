@@ -15,11 +15,14 @@ echo strlen ($text1 . " " . $text2);
 echo "<br>";
 //Nothing changes, it remains the same.
 
-# 3. Put a single quote at the beginning of your text and double quote at the end. What happens now when you run your code?
+/* 3. Put a single quote at the beginning of your text and double quote at the end. What happens now when you run your code?
 
 $text1='I like";
 $text2='programming";
 echo strlen ($text1 . " " . $text2);
 echo "<br>";
+
+I get the following error message: Parse error: syntax error, unexpected identifier "programming" in /var/www/html/exs/mona_achaaoud_web/exercice2.php on line 21
+*/
 
 ?>
