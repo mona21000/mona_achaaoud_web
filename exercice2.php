@@ -47,7 +47,7 @@ I get the following error: Parse error: syntax error, unexpected variable "$text
  Random characters: del c:\*.* " 
  */
 echo "\"It is Markku's car.\"<br>" ;
-echo "Random characters: del c: \\*.*";
+echo "Random characters: del c: \\*.*"";
 
 
 ?>
