@@ -11,9 +11,9 @@ You can use date(F) function to get the current month name
 */
 $m= date("M");
 if ($m == "August") {
-    echo("It's August, so it's still holiday.");
+    echo"It's August, so it's still holiday.";
 else {
-    echo("Not August, This is $m so i don't have any holidays.");
+    echo"Not August, This is $m so i don't have any holidays.";
 }
 
 
