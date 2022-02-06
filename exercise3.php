@@ -54,14 +54,17 @@ switch ($grade) {
     echo "Fail";
     break;
 }
+?>
 
 
 
-/*
-4. Write a program to get inputs (age and name) from the user and based on their age, decide if he/she is eligible for voting. (18 or more than 18 years is eligible for voting.)
-*/
+<!-- 4. Write a program to get inputs (age and name) from the user and based on their age, decide if he/she is eligible for voting. (18 or more than 18 years is eligible for voting.) -->
 
 
+
+<!DOCTYPE HTML>
+<html>  
+<body>
 
 <form action="exercice3.php" method="post">
 Age: <input type="number" name="age"><br>
@@ -69,9 +72,10 @@ Name: <input type="text" name="name"><br>
 <input type="submit">
 </form>
 
+</body>
+</html>
 
-
-
+<?php
 if ( $_POST["age"] >=18) {
     echo"You are eligible for voting.";
 }
