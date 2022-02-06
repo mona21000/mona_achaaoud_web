@@ -77,11 +77,11 @@ Name: <input type="text" name="name"><br>
 1
 */
 $num=12345678;
-for ($num=12345678; $num> strlen($num); $num--)
-{
+do{
 $num = substr($num, 0, -1);
-echo substr($num,0, -1);   
+echo substr($num,0, -1); 
 }
+while($num > strlen($num));
 ?>
 
 
