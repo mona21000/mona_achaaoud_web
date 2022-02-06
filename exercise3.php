@@ -81,7 +81,7 @@ $n=12345678;
 do{
 	$m=$n;
 	do{
-		echo " &nbsp *";
+		echo " &nbsp ";
 		$m++;
 	}while ($m <=8);
 	$n++;
