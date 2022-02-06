@@ -26,10 +26,10 @@ The color is not red.
 */
 $color="red";
 if ($color=="red") {
-    echo"The color is red.<br>";
+    echo"The color is red.";
 }
 else {
-    echo"The color is not red.<br>";
+    echo"The color is not red.";
 }
 
 /*
@@ -37,23 +37,23 @@ else {
 */
 $grade= 70;
 
-if ($grade>80) {
+switch ($grade) {
+    case $grade>80;
     echo "Excellent";
-}
-else if ($grade>70 && $grade<80) {
+    break;
+    case $grade=<80 && $grade>70;
     echo "Great";
-}
-else if ($grade>60 && $grade<70 ) {
+    break;
+    case $grade=<70 && $grade>60; 
     echo "Good";
-}
-else if ($grade>50 && $grade<60  ) {
+    break;
+    case $grade=<60 && $grade>50;
     echo"Pass";
-}
-else {
+    break;
+    case $grade<50;
     echo "Fail";
-
+    break;
 }
-
 
 
 /*
