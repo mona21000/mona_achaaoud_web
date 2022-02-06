@@ -75,7 +75,7 @@ Name: <input type="text" name="name"><br>
 123
 12
 1
-*/
+
 $num="12345678";
 
 while($num > strlen($num))
@@ -83,10 +83,28 @@ while($num > strlen($num))
 $num = substr($num, 0, -1);
 echo substr($num,0, -1); 
 }
+
+
+
+6. Use While loop to print the following pattern: 
+*
+**
+***
+****
+*****
+******
+*******
+********
+*/
+
+$i=1;
+while($i<9)
+{
+    echo "*";
+    $i++;
+}
+
 ?>
-
-
-
 
 
 
