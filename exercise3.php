@@ -76,6 +76,7 @@ Name: <input type="text" name="name"><br>
 12
 1
 */
+
 for($num=12345678;$num<=8;$num++){  
     for($k=8-$num;$k>=1;$k--){  
     echo $k;  
