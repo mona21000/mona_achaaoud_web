@@ -64,14 +64,14 @@ switch ($grade) {
 
 
 
-<form action="exercice3.php" method="post">
+<form action="exercice3.php" method="get">
 Age: <input type="number" name="age"><br>
 Name: <input type="text" name="name"><br>
 <input type="submit">
 </form>
 
 <?php
-if ( $_POST["age"] >=18) {
+if ( $_GET["age"] >=18) {
     echo"You are eligible for voting.";
 }
 else {
