@@ -7,6 +7,6 @@ if ( $_POST["age"] >=18) {
 else {
     echo"You are not eligible for voting.";
 }
-?>
+
 
 ?>
