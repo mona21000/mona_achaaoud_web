@@ -36,23 +36,24 @@ else {
 3. Write a program to grade students based on their total score for a subject. The grading scheme is: Excellent : >80 ;Great >70 & less than 80;Good >60 & less than 70; Pass >50 & less than 60 & Fail <50
 */
 $grade= 70;
-switch ($grade) {
-    case $grade>80;
+
+if ($grade>80) {
     echo "Excellent";
-    break;
-    case $grade<80 && $grade>70;
-    echo "Great";
-    break;
-    case $grade<70 && $grade>60; 
-    echo "Good";
-    break;
-    case $grade<60 && $grade>50;
-    echo"Pass";
-    break;
-    case $grade<50;
-    echo "Fail";
-    break;
 }
+else if ($grade<80 && $grade>70) {
+    echo "Great";
+}
+else if ($grade<70 && $grade>60) {
+    echo "Good";
+}
+else if ($grade<60 && $grade>50) {
+    echo"Pass";
+}
+else {
+    echo "Fail";
+
+}
+
 
 
 /*
