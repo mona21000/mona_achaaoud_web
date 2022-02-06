@@ -40,7 +40,7 @@ switch ($grade) {
     echo "Excellent";
     break;
     case $grade<80 && $grade>70;
-    echp "Great";
+    echo "Great";
     break;
     case $grade<70 && $grade>60; 
     echo "Good";
