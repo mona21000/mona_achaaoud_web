@@ -58,8 +58,8 @@ switch ($grade) {
 /*
 4. Write a program to get inputs (age and name) from the user and based on their age, decide if he/she is eligible for voting. (18 or more than 18 years is eligible for voting.)
 */
-$age: (int)readline("your age is: ");
-if ( $a >=18) {
+$age= (int)readline("your age is: ");
+if ( $age >=18) {
     echo"You are eligible for voting.";
 }
 else {
