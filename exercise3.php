@@ -81,7 +81,7 @@ do{
 $num = substr($num, 0, -1);
 echo substr($num,0, -1); 
 }
-while($num > strlen($num));
+while($num >= strlen($num));
 ?>
 
 
