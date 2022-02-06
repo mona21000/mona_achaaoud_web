@@ -40,13 +40,13 @@ $grade= 70;
 if ($grade>80) {
     echo "Excellent";
 }
-else if ($grade<80 && $grade>70) {
+else if ($grade>70 && $grade<80) {
     echo "Great";
 }
-else if ($grade<70 && $grade>60) {
+else if ($grade>60 && $grade<70 ) {
     echo "Good";
 }
-else if ($grade<60 && $grade>50) {
+else if ($grade>50 && $grade<60  ) {
     echo"Pass";
 }
 else {
