@@ -56,17 +56,33 @@ switch ($grade) {
 }
 ?>
 
-
-
 <!-- 4. Write a program to get inputs (age and name) from the user and based on their age, decide if he/she is eligible for voting. (18 or more than 18 years is eligible for voting.) -->
-
-
 <form action="form1ex3.php" method="post">
 Age: <input type="number" name="age"><br>
 Name: <input type="text" name="name"><br>
 <input type="submit">
 </form>
 
+<?php
+/*
+5. Use a looping statement to construct the following pattern: 
+
+12345678
+1234567
+123456
+12345
+1234
+123
+12
+1
+*/
+$num=12345678;
+for ($num=12345678; $num> strlen($num); $num--)
+{
+$num = substr($num, 0, -1);
+echo substr($num,0, -1);   
+}
+?>
 
 
 
