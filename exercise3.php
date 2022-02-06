@@ -97,14 +97,15 @@ echo substr($num,0, -1); 
 ********
 */
 
-$i=1;
-$j=1;
-while($i<9 && $j<=$i)
-{
-    $i++;
-    $j++;
-    echo "*";
-    echo "\n";
+i=1;
+while ($i <= 8) {
+	$j=1;
+	while ( $j<= $i) {
+		$j++;
+		echo "&nbsp *";
+	}
+	$i++;
+	echo " </br>";
 }
 
 ?>
