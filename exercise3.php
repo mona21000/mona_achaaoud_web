@@ -16,5 +16,5 @@ else {
     echo("Not August, This is $m so i don't have any holidays.");
 }
 
-}
+
 ?>
