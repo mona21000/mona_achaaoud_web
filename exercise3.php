@@ -104,7 +104,7 @@ while($i<9 && $j<=$i)
     $i++;
     $j++;
     echo "*";
-    echo "</br>";
+    echo "\n";
 }
 
 ?>
