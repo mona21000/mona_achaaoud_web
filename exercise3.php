@@ -9,12 +9,12 @@ Not August, This is Month-name so i don't have any holidays
 
 You can use date(F) function to get the current month name
 */
-$m= date("M");
-if ($m == "August") {
+$f= date("F");
+if ($f == "August") {
     echo"It's August, so it's still holiday.<br>";
     }
 else {
-    echo"Not August, This is $m so i don't have any holidays.<br>";
+    echo"Not August, This is $f so i don't have any holidays.<br>";
 }
 
 
