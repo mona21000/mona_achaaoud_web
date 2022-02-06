@@ -41,13 +41,13 @@ switch ($grade) {
     case $grade>80;
     echo "Excellent";
     break;
-    case $grade=<80 && $grade>70;
+    case $grade<=80 && $grade>70;
     echo "Great";
     break;
-    case $grade=<70 && $grade>60; 
+    case $grade<=70 && $grade>60; 
     echo "Good";
     break;
-    case $grade=<60 && $grade>50;
+    case $grade<=60 && $grade>50;
     echo"Pass";
     break;
     case $grade<50;
