@@ -85,7 +85,7 @@ for($i=12345678;$i<=8;$i++){
 
 
 
-6. Use While loop to print the following pattern: 
+/*6. Use While loop to print the following pattern: 
 *
 **
 ***
