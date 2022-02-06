@@ -77,16 +77,7 @@ Name: <input type="text" name="name"><br>
 1
 */
 
-$n=12345678;
-do{
-	$m=$n;
-	do{
-		echo " &nbsp ";
-		$m++;
-	}while ($m <=8);
-	$n++;
-	echo "</br>";
-}
+
 
 
 
