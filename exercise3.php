@@ -35,7 +35,7 @@ else {
 /*
 3. Write a program to grade students based on their total score for a subject. The grading scheme is: Excellent : >80 ;Great >70 & less than 80;Good >60 & less than 70; Pass >50 & less than 60 & Fail <50
 */
-$grade="70";
+$grade=70;
 switch ($grade) {
     case $grade>80;
     echo "Excellent";
@@ -53,5 +53,10 @@ switch ($grade) {
     echo "Fail";
     break;
 }
+
+
+/*
+4. Write a program to get inputs (age and name) from the user and based on their age, decide if he/she is eligible for voting. (18 or more than 18 years is eligible for voting.)
+*/
 
 ?>
