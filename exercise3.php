@@ -98,10 +98,12 @@ echo substr($num,0, -1); 
 */
 
 $i=1;
-while($i<9)
+$j=1;
+while($i<9 && $j<$i)
 {
-    echo "* <br>";
+    echo "*";
     $i++;
+    $j++;
 }
 
 ?>
