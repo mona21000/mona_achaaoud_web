@@ -77,12 +77,15 @@ Name: <input type="text" name="name"><br>
 1
 */
 
-for($num=12345678;$num<=8;$num++){  
-    for($k=8-$num;$k>=1;$k--){  
-    echo $k;  
-    }  
-    echo "<br>";  
-    }  
+$n=12345678;
+do{
+	$m=$n;
+	do{
+		echo " &nbsp *";
+		$m++;
+	}while ($m <=8);
+	$n++;
+	echo "</br>";
 
 
 
