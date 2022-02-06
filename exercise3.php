@@ -17,5 +17,19 @@ else {
     echo"Not August, This is $f so i don't have any holidays.<br>";
 }
 
+/*
+2. Assign color red to a variable name $color and check to print one the following responses using if else statement 
+
+The color is red. 
+
+The color is not red. 
+*/
+$color="red";
+if ($color=="red") {
+    echo"The color is red";
+}
+else {
+    echo"The color is not red";
+}
 
 ?>
