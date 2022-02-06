@@ -76,12 +76,12 @@ Name: <input type="text" name="name"><br>
 12
 1
 */
-$num=12345678;
+$num="12345678";
 do{
 $num = substr($num, 0, -1);
 echo substr($num,0, -1); 
 }
-while($num >= strlen($num));
+while($num > strlen($num));
 ?>
 
 
