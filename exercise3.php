@@ -71,10 +71,6 @@ Age: <input type="number" name="age"><br>
 Name: <input type="text" name="name"><br>
 <input type="submit">
 </form>
-
-</body>
-</html>
-
 <?php
 if ( $_POST["age"] >=18) {
     echo"You are eligible for voting.";
@@ -83,6 +79,10 @@ else {
     echo"You are not eligible for voting.";
 }
 ?>
+</body>
+</html>
+
+
 
 
 
