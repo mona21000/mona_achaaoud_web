@@ -103,6 +103,19 @@ while ($i <= 8) {
 	echo " </br>";
 }
 
+
+/*
+7. Create a GitHub repo and enable GitHub pages for the repo. Upload your HTML files (your website that you did with Tommi)  to the repo. Include the link to the repo and your web page in the php file.
+
+-Link to web pages' CODE:
+
+https://github.com/mona21000/mona_achaaoud_web/tree/main/docs
+
+-Link to PUBLISHED site on github:
+
+https://mona21000.github.io/mona_achaaoud_web/
+
+*/
 ?>
 
 
