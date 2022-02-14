@@ -15,7 +15,7 @@
  https://youtu.be/k5dHX-wEJ8I
  */
 
-$fname = "createfile.txt";
+$fname = "Createfile.txt";
 if (file_exists("mona_achaaoud_web/aboutuscreatefile.txt")){
     echo "file exisits";
 }
