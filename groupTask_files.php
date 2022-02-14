@@ -11,8 +11,22 @@
     # Step 3: Use fwrite/fread function to write/read on the file your team name and members name. 
     # Step 4: Close the file 
 
-//Moving your php site with database to hamk servers.
+/*Moving your php site with database to hamk servers.
  https://youtu.be/k5dHX-wEJ8I
+ */
+
+$fname = "createfile.txt";
+if (file_exists("mona_achaaoud_web/aboutuscreatefile.txt")){
+    echo "file exisits";
+}
+else 
+    echo "file not found";
+
+$handle = fopen($fname, "r");
+$cont = fread($handle, filesize($fname));
+echo $cont;
+fclose($handle);
+
 
 #2. Uploaing files 
      # Step 1: Create a simple html form to upload a file. 
