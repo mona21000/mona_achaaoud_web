@@ -16,7 +16,7 @@
  */
 
 $fname = "Createfile.txt";
-if (file_exists("mona_achaaoud_web/aboutuscreatefile.txt")){
+if (file_exists("mona_achaaoud_web/Createfile.txt")){
     echo "file exisits";
 }
 else 
