@@ -76,8 +76,12 @@ Name: <input type="text" name="name"><br>
 12
 1
 */
-
-
+$i=9;
+for($j=1;$j>1 $$ $j<$i; $j++)
+{
+    echo "$j<br>";
+    $i--;
+}
 
 
 
